@@ -1,0 +1,5 @@
+*.ipynb_checkpoints
+*train.csv
+*test.csv
+*sample_submission.csv
+*.zip

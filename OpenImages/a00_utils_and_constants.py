@@ -18,7 +18,7 @@ import json
 
 
 
-DATASET_PATH = 'C:/Users/rohit/Desktop/ML/Kaggle/OpenImages/test/'
+DATASET_PATH = 'C:/Users/rohit/Desktop/ML/Kaggle/OpenImages/test1/'
 
 ROOT_PATH = 'C:/Users/rohit/Desktop/ML/Kaggle/OpenImages' + '/'
 INPUT_PATH = ROOT_PATH + 'input/'
@@ -198,7 +198,7 @@ def read_single_image(path):
 
 
 def get_description_for_labels():
-    out = open(INPUT_PATH + 'class-descriptions-boxable.csv')
+    out = open(INPUT_PATH + 'class-descriptions-boxable1.csv')
     lines = out.readlines()
     ret_1, ret_2 = dict(), dict()
     for l in lines:

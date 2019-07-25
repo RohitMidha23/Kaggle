@@ -2,3 +2,7 @@ test/
 models/
 __pycache__
 output/
+.ipynb_checkpoints
+subm
+test1
+*.csv
